@@ -5,7 +5,9 @@ const pool = require("./config/db");
 const uploadRoutes = require("./routes/uploadRoutes");
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "*"
+}));
 app.use(express.json());
 
 app.get("/health", (req, res) => {
