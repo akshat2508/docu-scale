@@ -21,10 +21,8 @@ spec:
       containers:
         - name: backend
 
-          image: docu-backend
-
-          imagePullPolicy: Never
-
+          image: 084847996093.dkr.ecr.eu-north-1.amazonaws.com/docu-backend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
 

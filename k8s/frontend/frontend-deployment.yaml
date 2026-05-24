@@ -21,9 +21,7 @@ spec:
       containers:
         - name: frontend
 
-          image: docu-frontend
-
-          imagePullPolicy: Never
+          image: 084847996093.dkr.ecr.eu-north-1.amazonaws.com/docu-frontend:latest
 
           ports:
             - containerPort: 5173

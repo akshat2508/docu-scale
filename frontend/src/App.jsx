@@ -13,9 +13,9 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/upload",
-        formData
-      );
+  "/api/upload",
+  formData
+);
 
       setMessage(res.data.message);
 

@@ -12,7 +12,7 @@ router.post("/", upload.single("file"), async (req, res) => {
     const filename = req.file.originalname;
 
     await pool.query(
-      "INSERT INTO files (filename) VALUES ($1)",
+      "INSERT INTO uploads (filename) VALUES ($1)",
       [filename]
     );
 

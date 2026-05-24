@@ -15,7 +15,7 @@ app.get("/health", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.use("/upload", uploadRoutes);
+app.use("/api/upload", uploadRoutes);
 pool.connect()
   .then(() => console.log("PostgreSQL connected"))
   .catch(err => console.error(err));
