@@ -17,6 +17,8 @@ pipeline {
                 sh 'kubectl apply -f k8s/postgres/'
                 sh 'kubectl apply -f k8s/backend/'
                 sh 'kubectl apply -f k8s/frontend/'
+                sh 'kubectl rollout restart deployment backend -n docu-scale'
+                sh 'kubectl rollout restart deployment frontend -n docu-scale'
             }
         }
 
