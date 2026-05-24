@@ -413,19 +413,10 @@ This issue was resolved by:
 
 ---
 
-## Screenshots to Include
 
-### AWS IAM User
-
-Paste screenshot showing:
-- IAM user creation
-- attached permissions
-
----
 
 ### AWS CLI Verification
 
-Paste screenshot of:
 
 ```bash
 aws sts get-caller-identity
@@ -435,7 +426,6 @@ aws sts get-caller-identity
 
 ### ECR Repository Creation
 
-Paste screenshot of:
 
 ```bash
 aws ecr create-repository --repository-name docu-backend
@@ -445,39 +435,42 @@ aws ecr create-repository --repository-name docu-backend
 
 ### ECR Repositories in AWS Console
 
-Paste screenshot showing:
 - docu-backend repository
 - docu-frontend repository
+
+![alt text](./screenshots/aws_ecr_registory.png)
+
 
 ---
 
 ### Docker Login Success
+```bash
+aws ecr get-login-password --region eu-north-1 | \
+docker login --username AWS --password-stdin 084847996093.dkr.ecr.eu-north-1.amazonaws.com
+```
 
-Paste screenshot showing successful ECR Docker authentication.
-
+-> run this command
 ---
 
 ### Docker Push Success
 
-Paste screenshot of:
 
 ```bash
 docker push <ecr-repository-url>
 ```
 
+![alt text](./screenshots/docker_build_and_push.png)
+
+
 ---
 
 ### Pushed Images in AWS Console
 
-Paste screenshot showing uploaded Docker image tags inside ECR.
+![alt text](./screenshots/aws_ecr_registory.png.png)
 
 ---
 
-### AWS Console Verification
 
-Paste screenshot showing ECR repository dashboard inside AWS Console.
-
----
 
 ## Conclusion
 

@@ -452,7 +452,7 @@ kubectl logs <backend-pod-name> -n docu-scale
 
 ### Deployment Verification
 
-Paste screenshot of:
+![alt text](./screenshots/full-cluster.png)
 
 ```bash
 kubectl get deployments -n docu-scale
@@ -462,8 +462,6 @@ kubectl get deployments -n docu-scale
 
 ### Full Cluster Verification
 
-Paste screenshot of:
-
 ```bash
 kubectl get all -n docu-scale
 ```
@@ -472,13 +470,13 @@ kubectl get all -n docu-scale
 
 ### Frontend Running Through Kubernetes
 
-Paste screenshot showing frontend application accessible through Kubernetes service.
+![alt text](./screenshots/frontend.png)
 
 ---
 
 ### Backend and PostgreSQL Communication Success
 
-Paste screenshot showing successful backend database connection logs.
+![alt text](./screenshots/backend.png)
 
 ---
 

@@ -124,11 +124,8 @@ sudo -u jenkins kubectl get pods -A
 
 ---
 
-# Screenshots to Add
+![alt text](./screenshots/jenkins_status.png)
 
-* Successful `kubectl get nodes`
-* Successful `kubectl get pods -A`
-* Jenkins terminal access screenshots
 
 ---
 
@@ -244,13 +241,9 @@ kubectl rollout restart deployment backend -n docu-scale
 
 ---
 
-# Screenshots to Add
+# Jenkins dashboard with success pipeline
 
-* Jenkins pipeline configuration
-* Jenkins console logs
-* Successful deployment logs
-* Rollout restart logs
-* Failed logs and fixes (optional but recommended)
+![alt text](./screenshots/jenkins_dashboard_pipeline.png)
 
 ---
 
@@ -350,13 +343,11 @@ jobs:
 
 ---
 
-# Screenshots to Add
+#  GITHUB ACTIONS PIPELIN
+![alt text](screenshots/github_cicd.png)
 
-* GitHub Actions workflow file
-* GitHub Actions successful pipeline run
-* GitHub repository secrets page
-* Docker image push logs
-* Jenkins automatic trigger after CI
+
+
 
 ---
 
@@ -371,16 +362,8 @@ Separate repositories were maintained for:
 
 Images were automatically pushed after every commit.
 
----
 
-# Screenshots to Add
 
-* ECR repositories
-* Pushed Docker images
-* Image tags
-* Repository details page
-
----
 
 # Step 6 — Kubernetes Deployment Verification
 
@@ -406,15 +389,6 @@ Example Load Balancer URL:
 http://<aws-load-balancer-url>
 ```
 
----
-
-# Screenshots to Add
-
-* `kubectl get pods -n docu-scale`
-* `kubectl get svc -A`
-* `kubectl get ingress -n docu-scale`
-* AWS ELB endpoint
-* Live deployed website
 
 ---
 

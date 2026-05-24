@@ -256,20 +256,13 @@ kubectl get svc
 ---
 
 ### Frontend Running Through Kubernetes
-
-Paste screenshot showing frontend application accessible in browser.
-
+![alt text](./screenshots/frontend.png)
 ---
 
-### Upload Success Verification
 
-Paste screenshot showing successful application functionality after deployment.
-
----
 
 ### Deployment Verification
 
-Paste screenshot of:
 
 ```bash
 kubectl get deployments

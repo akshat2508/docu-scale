@@ -352,11 +352,9 @@ This issue was resolved by:
 
 ---
 
-## Screenshots to Include
 
 ### Docker Desktop Running Containers
 
-Paste screenshot showing:
 - frontend container
 - backend container
 - postgres container
@@ -365,7 +363,6 @@ Paste screenshot showing:
 
 ### Docker Image Build Verification
 
-Paste screenshot of:
 
 ```bash
 docker images
@@ -375,7 +372,6 @@ docker images
 
 ### Running Containers
 
-Paste screenshot of:
 
 ```bash
 docker ps
@@ -385,7 +381,6 @@ docker ps
 
 ### Backend Container Logs
 
-Paste screenshot of:
 
 ```bash
 docker logs <backend-container>
@@ -394,12 +389,11 @@ docker logs <backend-container>
 
 ### PostgreSQL Volume Issue
 
-![alt text](./screenshots/postgre_error.png.png)
+![alt text](./screenshots/postgre_error.png)
 ---
 
 ### Docker Networking Verification
 
-Paste screenshot of:
 
 ```bash
 docker network ls
@@ -409,7 +403,6 @@ docker network ls
 
 ### Docker Compose Execution
 
-Paste screenshot of:
 
 ```bash
 docker compose up --build

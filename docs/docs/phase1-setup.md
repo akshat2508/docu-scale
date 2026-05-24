@@ -212,29 +212,15 @@ Some services attempted to use ports already occupied by other applications runn
 - Implement CI/CD pipelines for automated deployment workflows
 - Introduce Infrastructure as Code practices for environment provisioning
 
----
 
-## Screenshots to Include
 
-### Project Structure
 
-Paste screenshot showing:
-- frontend/
-- backend/
-- docs/
-- kubernetes manifests
-
-### Docker Verification
-
-Paste screenshot of:
 
 ```bash
 docker --version
 ```
 
 ### Kubernetes Verification
-
-Paste screenshot of:
 
 ```bash
 kubectl get nodes
