@@ -6,7 +6,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/akshat2508/docu-scale.git'
+                git branch: 'main',
+                    url: 'https://github.com/akshat2508/docu-scale.git'
             }
         }
 
@@ -25,5 +26,4 @@ pipeline {
             }
         }
     }
-    
 }
