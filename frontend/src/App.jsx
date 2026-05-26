@@ -854,7 +854,7 @@ export default function App() {
 
         {/* FOOTER */}
         <footer className="footer">
-          <div className="footer-left">CloudDocs v2.1</div>
+          <div className="footer-left">CloudDocs v2.2</div>
           <div className="progress-bar-wrapper">
             <div className="progress-track">
               <div className="progress-fill" style={{ width: `${progress}%` }} />
