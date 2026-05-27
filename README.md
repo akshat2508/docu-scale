@@ -325,7 +325,12 @@ AWS credentials were stored as Kubernetes Secrets — never hardcoded in manifes
 
 </div>
 
+## Frontend runnuning on ingress 
+
+
+![Frontend Application](./docs/docs/screenshots/ingress.png)
 ---
+
 
 ## ☁️ Phase 4 — AWS Cloud Infrastructure
 
