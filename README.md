@@ -38,7 +38,7 @@
 
 <div align="center">
 
-![Frontend Application](./docs/docs/screenshots/frontend.png)
+![Frontend Application](./docs/docs/screenshots/ingress.png)
 
 *DocuScale running live on AWS EKS infrastructure*
 
@@ -325,11 +325,6 @@ AWS credentials were stored as Kubernetes Secrets — never hardcoded in manifes
 
 </div>
 
-## Frontend runnuning on ingress 
-
-
-![Frontend Application](./docs/docs/screenshots/ingress.png)
----
 
 
 ## ☁️ Phase 4 — AWS Cloud Infrastructure
